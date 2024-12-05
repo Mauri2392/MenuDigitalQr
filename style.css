@@ -73,9 +73,11 @@ section{
    font-size: 1.7rem;
    color: var(--white); 
    background-color: var(--celete); 
-   margin-right: 20px; 
+   margin-right: 10px; 
+   margin-left: 10px;
    /* border: .1rem solid var(--third); */
-}
+} 
+
 
 .btn:hover{
    background: var(--white);
