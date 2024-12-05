@@ -175,7 +175,7 @@ section{
 }
 
 .about .row .content p{
-   font-size: 1.6rem;
+   font-size: 1.7rem;
    color: var(--black);
    padding: 2rem 0;
    line-height: 2;
@@ -252,7 +252,7 @@ section{
 } */
 
 .services .box-container .box .content p{
-   font-size: 1.6rem;
+   font-size: 1.7rem;
    color: var(--black);
    line-height: 2;
 }
@@ -320,7 +320,8 @@ section{
 .pricing .box-container .box .price{
    color: var(--third);
    margin-bottom: 5rem;
-   padding-top: 1rem;
+   padding-top: 1rem; 
+   text-align: center;
 }
 
 .pricing .box-container .box .price .currency{
@@ -339,6 +340,13 @@ section{
    font-size: 1.8rem;
    font-weight: 400;
    letter-spacing: .2rem;
+} 
+
+.pricing .box-container .box .price p{
+   font-size: 1.7rem;
+   font-weight: 400;
+   letter-spacing: 0.2rem; 
+   text-align: center;
 }
 
 .pricing .box-container .box ul{
@@ -393,8 +401,8 @@ section{
  
 .contact .row form{
    flex: 1 1 50rem;
-   padding: 5rem;
-   padding-top: 5rem;
+   padding: 4rem;
+   padding-top: 3rem;
 }
  
 .contact .row form .inputBox{
@@ -451,7 +459,7 @@ section{
 }
  
 .footer .box-container .box p{
-   font-size: 1.5rem;
+   font-size: 1.7rem;
    line-height: 2;
    color: var(--black);
    padding: .5rem 0;
@@ -505,7 +513,7 @@ section{
    }
 
    section{
-      padding: 3rem 5rem;
+      padding: 3rem 3rem;
    }
 
 }
@@ -536,22 +544,25 @@ section{
 
    .about .row .content{
       text-align: center; 
+   } 
+
+   .contact .row form{
+      flex: 1 1 50rem;
+      padding: 2rem;
+      padding-top: 1rem;
    }
 
 }
 
 @media(max-width:500px){
 
+   /*
    html{
       font-size: 50%;
-   }
+   } */
 
    .home {
       min-height: 80vh;
    } 
 
-   .newsletter .content{
-      max-width: 100%;
-   }
-
-}
+} 
