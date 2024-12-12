@@ -155,7 +155,7 @@ section{
 /* about */ 
 
 .about {
-   background-color: var(--bg);
+   background-color: var(--light-bg);
 }
 
 .about .row{ 
@@ -198,7 +198,7 @@ section{
 /* services */
 
 .services{
-   background: var(--light-bg);
+   background: var(--bg);
 }
 
 .services .box-container{
@@ -285,7 +285,7 @@ section{
 /* pricing */
 
 .pricing{
-   background: var(--bg);
+   background: var(--light-bg);
    padding-bottom: 8rem;
 }
 
@@ -376,7 +376,14 @@ section{
    padding-left: 3.8rem;
 }
 
-/* end */
+/* end */ 
+
+/* preguntas frecuentes */ 
+
+
+
+
+/* end */ 
 
 /* contact */
 
@@ -568,3 +575,80 @@ section{
    } 
 
 } 
+
+/* ---------------------------------------------- */ 
+
+.containerfp {
+   padding: 3rem 7%; 
+   background-color: var(--bg);
+}
+
+.containerfp .heading{
+   font-size: 4rem;
+   padding: 1.2rem;
+   text-align: center;
+   margin-bottom: 1.2rem;
+}
+
+.containerfp .accordion-containerfp{
+   padding: 0 1.2rem;
+}
+
+.containerfp .accordion-containerfp .accordion{
+   margin-bottom: 1.2rem;
+   cursor: pointer;
+}
+
+.containerfp .accordion-containerfp .accordion.active .accordion-heading{
+   background: var(--light-bg);
+}
+
+.containerfp .accordion-containerfp .accordion.active .accordion-heading h3{
+   color: var(--third);
+}
+
+.containerfp .accordion-containerfp .accordion.active .accordion-heading i{
+   color: var(--third);
+   transform: rotate(90deg);
+   transition: transform .2s .1s;
+}
+
+.containerfp .accordion-containerfp .accordion.active .accordion-content{
+   display: block;
+}
+
+.containerfp .accordion-containerfp .accordion .accordion-heading{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: var(--light-bg);
+   padding: 1rem 1.2rem;
+}
+
+.containerfp .accordion-containerfp .accordion .accordion-heading h3{
+   font-size: 2rem;
+   text-align: center; 
+   color: var(--third);
+}
+
+.containerfp .accordion-containerfp .accordion .accordion-heading i{
+   font-size: 1.5rem;
+}
+
+.containerfp .accordion-containerfp .accordion .accordion-content{
+   padding: 1rem 1.2rem;
+   font-size: 1.8rem;
+   background: var(--bg);
+   border-top: 0;
+   display: none;
+   line-height: 2;
+   animation: animate .2s linear backwards;
+   transform-origin: top;
+   text-align: center;
+}
+
+@keyframes animate{
+   0%{
+       transform: scaleY(0);
+   }
+}

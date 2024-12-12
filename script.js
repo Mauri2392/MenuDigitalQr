@@ -50,3 +50,15 @@ var swiper = new Swiper('.review-slider', {
         },
     },
 });
+
+
+let accordion = document.querySelectorAll('.accordion-containerfp .accordion');
+
+accordion.forEach(acco =>{
+    acco.onclick = () => {
+        accordion.forEach(subacco => {
+            subacco.classList.remove('active')
+        });
+        acco.classList.add('active');
+    }
+})
