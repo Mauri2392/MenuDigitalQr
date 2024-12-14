@@ -217,16 +217,17 @@ section{
    margin-bottom: 8rem;
 }
 
+/*
 .services .box-container .box:hover,
 .services .box-container .box:hover .icon{
    background: var(--primary);
-}
+} */
 
 .services .box-container .box .icon{
    width: 13rem;
    height: 13rem;
    line-height: 13rem;
-   background: var(--white);
+   background: var(--primary);
    border-radius: 50%;
    margin: -11rem auto 2rem; 
    border: 1.8rem solid var(--light-bg); 
