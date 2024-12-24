@@ -214,7 +214,7 @@ section{
    background: var(--bg);
    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
    border-radius: 1rem;
-   margin-bottom: 8rem;
+   margin-bottom: 4rem;
 }
 
 /*
@@ -229,14 +229,15 @@ section{
    line-height: 13rem;
    background: var(--primary);
    border-radius: 50%;
-   margin: -11rem auto 2rem; 
+   margin: -7rem auto 2rem; 
    border: 1.8rem solid var(--light-bg); 
    /* border: 1.8rem solid var(--bg); */
 }
 
 .services .box-container .box .icon img{
    width: 5rem;
-   margin-top: 2rem;
+   margin-top: 2rem; 
+   rotate: 45deg;
 }
 
 .services .box-container .box .content h3{
